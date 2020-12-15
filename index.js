@@ -4,6 +4,7 @@
  placeholder in alert box.
  placeholder text with lable.
  placeholder text with lable(2 time).
+ return placeholder text.
 
  ============== like normal text ==================
  write innerhtml in a id.
@@ -12,20 +13,24 @@
  create string variable.
  what is this variable (number, string, ect)
  what is the length of varible.
-
- ====================== up to string =========================
- (upper, lower) case of a word.
- show index wise.
- take more then one string varible (+ - * /) the all string variables. 
+ (upper, lower) case of a word. 
 
 */
 
-// ================= task for today ================
 
-// javascript string function
+// ================= javascript string function ================
 
-var x = "khaleda"
-document.write(x.charCodeAt(3))
+// show index wise.
+//  take more then one string varible (+ - * /) the all string variables.
+// chack fist/last word/letter
+// 
+
+var a = 20;
+var b = 50;
+var c = "Khaleda"
+var d = "Akter"
+document.write(String.fromCharCode(100))
+
 /*
 
 alert("Are You Sure");
@@ -58,7 +63,6 @@ document.write(x.length)
 
 document.write(x.toUpperCase(), "<br>");
 document.write(x.toLowerCase());
-document.write(x.toCappitalize())
 
 
 let roll = 324529;
