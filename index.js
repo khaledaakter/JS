@@ -27,9 +27,9 @@
 // take more then one string varible (+ - * /) the all string variables.
 // chack fist/last word/letter
 // 
-
-var x = "Khaleda"
-var y = "Aziz"
-document.write(x.firstLetter("k"))
+var x = prompt("your name")
+var y = "akter"
+confirm("sure")
+document.getElementById("header").innerHTML = (typeof x)
 
 
