@@ -1,4 +1,7 @@
 // link: https://www.youtube.com/watch?v=5wgH30Bvb3U
+
+//https://www.youtube.com/watch?v=EnoAlM1pEhc&list=PL6f7IPPkpDKn0iI2Y5dnEgyrEqw2VvJ2P&index=6
+
 /* ============= alert box ================
  write alert box.
  placeholder in alert box.
@@ -34,16 +37,8 @@
 // cut end of all txt from a word
 // 
 
-
-
-// var x = prompt("your name")
-var x = "iLorem Ipsum is simply is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-var y = "khalado"
-var a = 40
-var b = 50
-
-document.getElementById("header").innerHTML = (x.endsWith("k"))
-
-
-
-
+// var a = prompt("name");
+var x = 45;
+var y = 50;
+var b = "Although not not strictly associated with the MVVM pattern, Vue’s design was partly inspired by it. As a convention, we often use the variable vm (short for ViewModel) to refer to our Vue instance."
+document.getElementById("header").innerHTML = (b.replace(/"not","am"/g))
